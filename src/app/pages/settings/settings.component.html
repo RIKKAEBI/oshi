@@ -1,0 +1,15 @@
+<p>settings works!</p>
+<a routerLink="/">move to home</a>
+hello world!
+@if (user) {
+  <p>{{ user.displayName }}</p>
+  <img [src]="user.photoURL">
+} @else if(user === undefined) {
+  loading...
+} @else {
+  not sign in
+}
+<div>
+  <button (click)="onSignInPopupOpen()">sign in</button>
+  <button (click)="onSignOut()">sign out</button>
+</div>
