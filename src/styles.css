@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  /* pull-to-refresh 無効化 */
+  overscroll-behavior: contain;
+}
