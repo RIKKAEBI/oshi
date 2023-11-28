@@ -1,1 +1,10 @@
 hello world!
+@if (user) {
+  {{ user.displayName }}
+} @else if(user === undefined) {
+  loading...
+} @else {
+  not sign in
+}
+<button (click)="onSignInPopupOpen()">sign in</button>
+<button (click)="onSignOut()">sign out</button>
