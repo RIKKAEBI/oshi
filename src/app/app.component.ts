@@ -22,6 +22,11 @@ export class AppComponent {
   ) {
     this.firebaseService.initialize()
 
+    // zoom の無効化
+    document.addEventListener('touchstart', (event: any) => {
+      if (event.touches.length > 1) event.preventDefault()
+    }, { passive: false });
+
     this.subscription.add(
       this.firebaseService.user$.subscribe(user => {
         this.user = user
