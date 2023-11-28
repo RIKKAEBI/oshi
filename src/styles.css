@@ -3,4 +3,6 @@
 body {
   /* pull-to-refresh 無効化 */
   overscroll-behavior: contain;
+  /* 文字列選択を無効化 */
+  user-select: none;
 }
