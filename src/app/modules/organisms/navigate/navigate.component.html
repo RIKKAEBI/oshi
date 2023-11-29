@@ -1,1 +1,6 @@
-<p>navigate works!</p>
+<button (click)="onNavigate($event, '/settings')">
+  <app-icon-config></app-icon-config>
+</button>
+<button (click)="onNavigate($event, '/')">
+  <app-icon-home></app-icon-home>
+</button>
