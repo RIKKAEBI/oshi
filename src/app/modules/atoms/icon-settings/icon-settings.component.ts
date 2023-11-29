@@ -6,7 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './icon-settings.component.html',
-  styleUrl: './icon-settings.component.css'
 })
 export class IconSettingsComponent {
 

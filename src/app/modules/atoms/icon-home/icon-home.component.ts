@@ -6,7 +6,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [CommonModule],
   templateUrl: './icon-home.component.html',
-  styleUrl: './icon-home.component.css'
 })
 export class IconHomeComponent {
 
