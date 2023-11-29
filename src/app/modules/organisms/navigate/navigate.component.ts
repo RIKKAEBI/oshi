@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IconConfigComponent } from '../../atoms/icon-config/icon-config.component';
 import { IconHomeComponent } from '../../atoms/icon-home/icon-home.component';
 import { Router } from '@angular/router';
+import { IconSettingsComponent } from '../../atoms/icon-settings/icon-settings.component';
 
 @Component({
   selector: 'app-navigate',
   standalone: true,
   imports: [
     CommonModule,
-    IconConfigComponent,
+    IconSettingsComponent,
     IconHomeComponent,
   ],
   templateUrl: './navigate.component.html',
