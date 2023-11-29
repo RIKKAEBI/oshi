@@ -1,3 +1,9 @@
-# Oshi Project
+<h1 style="text-align:center">
+  俺だけの残高管理アプリ
+</h1>
 
-俺だけの残高管理アプリ
+<div style="text-align:center">
+  <img src="./assets/2koku.jpg" width="200">
+</div>
+
+米 android chrome でしか動きません。
