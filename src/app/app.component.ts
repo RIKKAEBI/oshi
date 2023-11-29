@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { FirebaseService } from './service/firebase.service';
+import { NavigateComponent } from './modules/organisms/navigate/navigate.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet],
+  imports: [CommonModule, RouterOutlet, NavigateComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
