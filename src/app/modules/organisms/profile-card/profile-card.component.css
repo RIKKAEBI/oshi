@@ -1,0 +1,22 @@
+:host {
+  border-radius: 5px;
+  background: #fff;
+}
+
+img {
+  width: 40vw;
+  border-radius: 5px 5px 0 0;
+}
+
+.content {
+  padding: 8px;
+}
+
+.content .name {
+  text-align: center;
+}
+
+.content .rank {
+  text-align: center;
+  margin-top: 8px;
+}

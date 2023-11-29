@@ -4,11 +4,12 @@ import { RouterLink } from '@angular/router';
 import { User } from 'firebase/auth';
 import { Subscription } from 'rxjs';
 import { FirebaseService } from '../../service/firebase.service';
+import { ProfileCardComponent } from '../../modules/organisms/profile-card/profile-card.component';
 
 @Component({
   selector: 'app-settings',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, ProfileCardComponent],
   templateUrl: './settings.component.html',
   styleUrl: './settings.component.css'
 })
