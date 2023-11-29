@@ -5,4 +5,7 @@ body {
   overscroll-behavior: contain;
   /* 文字列選択を無効化 */
   user-select: none;
+
+  /* アプリの背景色 */
+  --app-background-color: #e0efff;
 }
