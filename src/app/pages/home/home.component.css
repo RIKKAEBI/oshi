@@ -1,10 +1,17 @@
-:host {
-  overflow: scroll;
+app-progress {
+  position: fixed;
+}
+
+.speacer {
+  height: 15vh;
+  width: 100%;
 }
 
 .list {
-  margin: 0 32px;
-  margin-bottom: 64px;
+  height: 85vh;
+  padding: 0 32px;
+  padding-bottom: 64px;
+  overflow: scroll;
 }
 
 .list .item:not(:last-child) {

@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { MoneyService } from '../../service/money.service';
+import { ProgressComponent } from '../../modules/organisms/progress/progress.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CommonModule, RouterLink],
+  imports: [CommonModule, RouterLink, ProgressComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
