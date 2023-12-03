@@ -1,0 +1,28 @@
+:host {
+  padding: 8px;
+  width: 100%;
+}
+
+.list .item {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.list .item .label {
+  width: 64px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0.863);
+  border-radius: 999px;
+  text-align: center;
+  line-height: 1.2;
+  padding: 2px 0;
+  margin-right: 4px;
+}
+
+.list .item .bar {
+  height: 4px;
+  background-color: rgba(0, 0, 255, 0.212);
+  flex: 1;
+  border-radius: 999px;
+}
