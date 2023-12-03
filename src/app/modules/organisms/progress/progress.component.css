@@ -20,9 +20,18 @@
   margin-right: 4px;
 }
 
-.list .item .bar {
+.list .item .info {
+  flex: 1;
+}
+
+.list .item .info .bar {
   height: 4px;
   background-color: rgba(0, 0, 255, 0.212);
   flex: 1;
   border-radius: 999px;
+}
+
+.list .item .info .price {
+  font-size: 10px;
+  margin-top: 4px;
 }
