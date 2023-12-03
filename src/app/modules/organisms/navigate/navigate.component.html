@@ -1,10 +1,6 @@
-<div class="content g-glass">
-  <button (click)="onNavigate($event, '/')">
-    <app-icon-home></app-icon-home>
-    HOME
-  </button>
-  <button (click)="onNavigate($event, '/settings')">
-    <app-icon-settings></app-icon-settings>
-    CONF
-  </button>
-</div>
+<button (click)="onNavigate($event, '/')">
+  <div class="poti red"></div>
+</button>
+<button (click)="onNavigate($event, '/settings')">
+  <div class="poti green"></div>
+</button>
