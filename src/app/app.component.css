@@ -1,18 +1,11 @@
 :host {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-  grid-template-rows: 10% 80% 10%;
   background-color: var(--app-background-color);
 }
 
-.main {
-  grid-area: main;
-}
-
-.footer {
-  grid-area: footer;
+app-navigate {
+  position: absolute;
+  bottom: 8px;
 }
