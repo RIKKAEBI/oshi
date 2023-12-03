@@ -9,7 +9,7 @@ app-progress {
 
 .list {
   height: 85vh;
-  padding: 0 32px;
+  padding: 0 40px;
   padding-bottom: 64px;
   overflow: scroll;
 }
